@@ -8,6 +8,13 @@
         <router-link to="/newpage/b" class="list-group-item list-group-item-act">
           元件 B
         </router-link>
+        <router-link to="/newpage/namedView/c2a" class="list-group-item list-group-item-act">
+          命名視圖 c2a
+        </router-link>
+        <router-link to="/newpage/namedView/a2b" class="list-group-item list-group-item-act">
+          命名視圖 a2b
+        </router-link>
+
       </div>
 
     </div>
