@@ -33,6 +33,10 @@ const routes = [
         component: () => import('../views/DynamicRouter.vue'),
       },
       {
+        path: 'routerNavigation',
+        component: () => import('../views/RouterNavigation.vue'),
+      },
+      {
         path: 'dynamicRouterByProps/:id',
         component: () => import('../views/DynamicRouterByProps.vue'),
         props: (route) => {
