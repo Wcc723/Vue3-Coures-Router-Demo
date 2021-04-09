@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button"
@@ -25,10 +25,14 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div class="container" style="height: 300vh">
     <router-view/>
   </div>
+  <router-link to="/newPage/routerNavigation">/newPage/routerNavigation</router-link>
 </template>
 
 <style lang="scss">
+body {
+  padding-top: 80px
+}
 </style>
